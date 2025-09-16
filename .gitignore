@@ -1,85 +1,82 @@
-  "Fossies" - the Free Open Source Software Archive  
-Member "vagrant-2.4.9/.gitignore" (21 Aug 2025, 905 Bytes) of package /linux/misc/vagrant-2.4.9.tar.gz:
-As a special service "Fossies" has tried to format the requested text file into HTML format (style: standard) with prefixed line numbers. Alternatively you can here view or download the uninterpreted source code file.
-    1 # OS-specific
-    2 .DS_Store
-    3 
-    4 # Editor swapfiles
-    5 .*.sw?
-    6 *~
-    7 
-    8 # Vagrant stuff
-    9 acceptance_config.yml
-   10 boxes/*
-   11 /.vagrant
-   12 /website/.vagrant
-   13 /website/build
-   14 /vagrant-spec.config.rb
-   15 test/vagrant-spec/.vagrant/
-   16 .vagrant/
-   17 /vagrant
-   18 /pkg
-   19 data.db
-   20 vagrant-restore.db.lock
-   21 cmd/vagrant/Vagrantfile
-   22 binstubs/
-   23 
-   24 # Bundler/Rubygems
-   25 *.gem
-   26 .bundle
-   27 pkg/*
-   28 /Gemfile.lock
-   29 test/tmp/
-   30 /exec
-   31 .ruby-bundle
-   32 vendor/bundle
-   33 
-   34 # Documentation
-   35 _site/*
-   36 .yardoc/
-   37 doc/
-   38 
-   39 # Python
-   40 *.pyc
-   41 
-   42 # Rubinius
-   43 *.rbc
-   44 
-   45 # IDE junk
-   46 .idea/*
-   47 *.iml
-   48 .project
-   49 .vscode
-   50 
-   51 # Ruby Managers
-   52 .rbenv
-   53 .rbenv-gemsets
-   54 .ruby-gemset
-   55 .ruby-version
-   56 .rvmrc
-   57 
-   58 # Box storage for spec
-   59 test/vagrant-spec/boxes/*.box
-   60 
-   61 simple_speed.py
-   62 cover.out
-   63 
-   64 # nektos/act secrets file
-   65 .secrets
-   66 
-   67 # delve debug binary
-   68 __debug_bin
-   69 
-   70 # solargraph (ruby lsp) & rubocop
-   71 .solargraph.yml
-   72 .rubocop.yml
-   73 
-   74 # Ignore generated binaries
-   75 bin/vagrant-go*
-   76 
-   77 # extension
-   78 tmp*
-   79 lib/vagrant/vagrant_ssl.so
-   80 
-   81 # direnv directory
-   82 .direnv
+# OS-specific
+.DS_Store
+
+# Editor swapfiles
+.*.sw?
+*~
+
+# Vagrant stuff
+acceptance_config.yml
+boxes/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+test/vagrant-spec/.vagrant/
+.vagrant/
+/vagrant
+/pkg
+data.db
+vagrant-restore.db.lock
+cmd/vagrant/Vagrantfile
+binstubs/
+
+# Bundler/Rubygems
+*.gem
+.bundle
+pkg/*
+/Gemfile.lock
+test/tmp/
+/exec
+.ruby-bundle
+vendor/bundle
+
+# Documentation
+_site/*
+.yardoc/
+doc/
+
+# Python
+*.pyc
+
+# Rubinius
+*.rbc
+
+# IDE junk
+.idea/*
+*.iml
+.project
+.vscode
+
+# Ruby Managers
+.rbenv
+.rbenv-gemsets
+.ruby-gemset
+.ruby-version
+.rvmrc
+
+# Box storage for spec
+test/vagrant-spec/boxes/*.box
+
+simple_speed.py
+cover.out
+
+# nektos/act secrets file
+.secrets
+
+# delve debug binary
+__debug_bin
+
+# solargraph (ruby lsp) & rubocop
+.solargraph.yml
+.rubocop.yml
+
+# Ignore generated binaries
+bin/vagrant-go*
+
+# extension
+tmp*
+lib/vagrant/vagrant_ssl.so
+
+# direnv directory
+.direnv
